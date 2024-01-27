@@ -36,7 +36,7 @@ function createAccordionData() {
     <div class="accordion-item">
     <div class="accordion-title">
     <h3>${dataItem.question}</h3>
-    <i class="fa-solid fa-arrow-up"></i>
+    <i class="fa-solid fa-arrow-down"></i>
     </div>
     <div class="accordion-content">
     <p>${dataItem.answer}</p>
