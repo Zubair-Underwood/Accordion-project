@@ -50,7 +50,7 @@ function createAccordionData() {
 createAccordionData();
 
 
-const getAccordionTitles = document.querySelectorAll("accordion-title");
+const getAccordionTitles = document.querySelectorAll(".accordion-title");
 
 console.log(getAccordionTitles);
 
@@ -58,6 +58,7 @@ console.log(getAccordionTitles);
 getAccordionTitles.forEach(currentItem => {
 
     currentItem.addEventListener("click", (event) => {
+
         if (currentItem.classList.contains("active")) {
             currentItem.classList.remove("active");
         } else {
